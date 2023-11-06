@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2d76cb598aee6bde4b2be73f0ef8ad32?family=SpriteGraffitiShadow"
+        rel="stylesheet">
+</head>
+<STYle>
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+
+    }
+
+    .first {
+        /* display: flex; */
+        background-image: url(Brown\ Minimalist\ Coming\ Soon\ Banner\ \(1\).png);
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        color: aliceblue;
+    }
+
+    .firstdiv {
+        display: flex;
+
+        width: 70%;
+
+        font-size: 2.5vw;
+        justify-content: center;
+        margin: auto;
+
+
+
+    }
+
+    .list {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 19px;
+       
+        margin-top: 20px;
+
+
+
+    }
+
+    .list li {
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #fff;
+        box-sizing: border-box;
+        color: white;
+        list-style: none;
+        justify-content: center;
+
+        /* margin-left: 17px; */
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .list a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #element {
+        text-shadow: 1px 1px 5px black;
+    }
+
+
+
+
+
+    .name {
+        margin: auto;
+        text-align: center;
+        font-family: "SpriteGraffitiShadow";
+        font-size: 10.6vw;
+        height: auto;
+        width: 80vw;
+        overflow-wrap: break-word;
+        margin-top: 0px;
+        /* margin-bottom: 0px;
+        padding-bottom: 0px; */
+
+
+    }
+
+    /* @media (max-width: 576px) {
+        .first {
+            background-size: cover;
+        }
+        .firstdiv {
+
+        font-size: 5vw;
+        }
+
+    } */
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .logo img {
+        margin-top: 75px;
+        height: 15vw;
+        width: 15vw;
+    }
+    .secdiv{
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 10vw;
+        margin-right: 20px;
+        
+    }
+</STYle>
+
+<body>
+    <section class="first">
+        <div class="logo"> <img src="csjm-university-logo-big-947x1024 (1).png" alt=""></div>
+        <div class="name">TECHNO SPANDAN</div>
+        <div class="firstdiv">
+            <span id="element"></span>
+        </div>
+        <div class="secdiv">
+            <ul class="list">
+                <li><a href="#home">HOME </a> </li>
+                <li><a href="#about">ABOUT </a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#home">HOME </a> </li>
+                <li><a href="#about">ABOUT </a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+        </div>
+    </section>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Annual Techno Cultural Fest of UIET Kanpur',],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>
