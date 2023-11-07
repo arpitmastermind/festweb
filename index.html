@@ -10,6 +10,10 @@
         rel="stylesheet">
 </head>
 <STYle>
+    * {
+        margin: 0px;
+    }
+
     body {
         margin: 0px;
         padding: 0px;
@@ -29,9 +33,7 @@
 
     .firstdiv {
         display: flex;
-
         width: 70%;
-
         font-size: 2.5vw;
         justify-content: center;
         margin: auto;
@@ -42,14 +44,12 @@
 
     .list {
         display: flex;
-
         justify-content: center;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
         font-size: 19px;
-       
-        margin-top: 20px;
+        margin-top: 16px;
 
 
 
@@ -62,8 +62,6 @@
         color: white;
         list-style: none;
         justify-content: center;
-
-        /* margin-left: 17px; */
         margin-bottom: 20px;
         margin-right: 20px;
     }
@@ -91,8 +89,7 @@
         overflow-wrap: break-word;
         margin-top: 0px;
         text-shadow: 1px 1px 5px black;
-        /* margin-bottom: 0px;
-        padding-bottom: 0px; */
+
 
 
     }
@@ -101,15 +98,34 @@
         .first {
             background-size: cover;
         }
+
         .firstdiv {
 
-        font-size: 5vw;
+            font-size: 5vw;
         }
+
         .logo img {
-        margin-top: 100px;
-        height: 25vw;
-        width: 25vw;
-    }
+            margin-top: 100px;
+            height: 25vw;
+            width: 25vw;
+        }
+
+        .sec3 {
+            height: 121vw;
+            width: 100vw;
+        }
+
+        .section2 {
+            background-image: url(Detailed\ eerie\ \ 1.png);
+            background-size: cover;
+            height: 110vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh; */
+            width: 100vw;
+            font-size: 1.5vw;
+        }
 
     }
 
@@ -125,72 +141,188 @@
         height: 15vw;
         width: 15vw;
     }
-    .secdiv{
+
+    .secdiv {
         box-sizing: border-box;
         align-items: center;
         margin-top: 5vw;
         margin-right: 20px;
-        
+
     }
-    .section2{
-        background-color: black;
+
+    .section2 {
+
+        background-image: url(Detailed\ eerie\ \ 1.png);
+        background-size: cover;
+        height: 110vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        /* height: 100vh; */
         width: 100vw;
         font-size: 1.5vw;
     }
-   .secd2{
-      max-width: 70vw;
-      border: 5px solid rgb(255, 255, 255);
-      border-radius: 8px;
-      border-color: aliceblue;
-      margin: 1.5vw 1.5vw 1.5vw 1.5vw;
-   }
-   .about
-   {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-   }
-   .desc{
-    display: flex;
-    margin: 50px 50px 60px 60px;
-   
-   }
+
+    .secd2 {
+        max-width: 70vw;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 8px;
+        border-color: aliceblue;
+        margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+        background-color: rgba(165, 42, 42, 0.516);
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 4vw;
+    }
+
+    .desc {
+        display: flex;
+        margin: 50px 50px 60px 60px;
+
+    }
+
+    .sec3 {
+        height: 160vh;
+        width: 100vw;
+        background-image: url(Detailed\ eerie\ \ 1\ -\ Copy.png);
+        background-size: cover;
+        image-orientation: from-image;
+
+    }
+
+    .secd4 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .secd4 img {
+        width: 25vw;
+        height: 20vw;
+        border: 5px solid yellow;
+        border-radius: 10px;
+        box-shadow: 4px 7px 7px 0px rgb(27, 14, 14);
+        margin: 10px;
+        transition: width 400ms, height 400ms;
+        /* Transition both width and height */
+        cursor: pointer;
+    }
+
+    .secd4 img:hover {
+        /* Corrected hover selector */
+        filter: drop-shadow(1);
+        transform: scale(1.03);
+    }
+
+    .secd3 {
+        padding-top: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vw;
+        text-shadow: 1px 1px 3px rgb(18, 15, 12);
+
+    }
+
+    footer {
+        background-color: rgb(64, 35, 35);
+        color: #fff;
+        height: 30vh;
+
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact img {
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+    }
+
+    .contact2 {
+        justify-content: center;
+    }
 </STYle>
 
 <body>
     <section class="first">
         <div class="logo"> <img src="csjm-university-logo-big-947x1024 (1).png" alt=""></div>
         <div class="name">TECHNO SPANDAN</div>
-        
+
         <div class="firstdiv">
             <span id="element"></span>
         </div>
-        <div class="firstdiv">24-27 Febuarary 2024</div>
+        <div class="firstdiv">01-01 Febuarary 2024</div>
         <div class="secdiv">
             <ul class="list">
                 <li><a href="#home">HOME </a> </li>
                 <li><a href="#about">ABOUT </a></li>
-                <li><a href="#project">PROJECT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#home">HOME </a> </li>
-                <li><a href="#about">ABOUT </a></li>
-                <li><a href="#project">PROJECT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#project">PROJECT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#project">EVENTS</a></li>
+                <li><a href="#contact">SPONSOR</a></li>
+                <li><a href="#home">MERCHANDIES</a> </li>
+                <li><a href="#about">TIMELINE </a></li>
+                <li><a href="#project">REGISTRATION</a></li>
+                <li><a href="#contact">GALLERY</a></li>
+                <li><a href="#project">CORE TEAM</a></li>
+                <li><a href="#contact">SUPPORT</a></li>
 
         </div>
     </section>
     <section class="section2">
         <div class="secd2">
-            <div class="about">About</div>
-            <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente nemo aliquam tempora nihil consectetur labore laudantium, id commodi dicta illum ipsum impedit pariatur sequi facere quos, cum voluptatem at? Aperiam mollitia consequuntur itaque saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolorem quidem eius, reiciendis et at, possimus nemo impedit, aut perferendis doloribus praesentium! Inventore amet unde natus voluptatum possimus aperiam delectus perferendis architecto eius deserunt doloremque error quod officia culpa quos odio minus, totam ipsa vitae. Soluta incidunt quos, eius maxime harum .</div>
+            <div class="about"><b>ABOUT FEST</b></div>
+            <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente nemo aliquam tempora
+                nihil consectetur labore laudantium, id commodi dicta illum ipsum impedit pariatur sequi facere quos,
+                cum voluptatem at? Aperiam mollitia consequuntur itaque saepe! Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Aspernatur dolorem quidem eius, reiciendis et at, possimus nemo impedit, aut
+                perferendis doloribus praesentium! Inventore amet unde natus voluptatum possimus aperiam delectus
+                perferendis architecto eius deserunt doloremque error quod officia culpa quos odio minus, totam ipsa
+                vitae. Soluta incidunt quos, eius maxime harum .</div>
         </div>
     </section>
+    <section class="sec3">7
+        <div class="secd3">
+            GALLERY
+        </div>
+        <div class="secd4">
+            <img src="techmart-e-1.jpeg" alt="">
+            <img src="techmart-e-10.jpeg" alt="">
+            <img src="techmart-e-11.jpeg" alt="">
+            <img src="techmart-e-4.jpeg" alt="">
+            <img src="techmart-e-6.jpeg" alt="">
+            <img src="techmart-e-7.jpeg" alt="">
+            <img src="techmart-e-9.jpeg" alt="">
+            <img src="techmart-e-16.jpeg" alt="">
+        </div>
+
+    </section>
+    <footer>
+
+        <div class="contact">
+            <div class="imgf"><img src="Instagram_logo_2016.svg.webp" alt=""></div>
+            <div class="imgf"><img src="google-logo-icon-png-transparent-background-osteopathy-16.png" alt=""></div>
+            <div class="imgf"><img src="Facebook_Logo_(2019).png" alt=""></div>
+            <div class="imgf"><img src="twitt.png" alt=""></div>
+            <div class="imgf"><img src="LinkedIn_logo_initials.png" alt=""></div>
+        </div>
+        <hr style="margin: 10px 50px;">
+        <div class="contact2">
+            <div class="foot" style="display: flex; justify-content: center;">This Web Designed by Arpit Sharma
+            </div>
+            <div class="foot2" style="display: flex; justify-content: center;">arpitsharma7583@gmail.com
+            </div>
+        </div>
+    </footer>
 
 </body>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
